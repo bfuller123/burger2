@@ -2,14 +2,14 @@ const db = require('./connection.js');
 
 const userConnection = db;
 
-function connectUser(){
-  userConnection.connect(function(err){
-    if(err) throw err;
-    console.log('Connected!');
-  })
-}
-
-connectUser();
+// function connectUser(){
+//   userConnection.connect(function(err){
+//     if(err) throw err;
+//     console.log('Connected!');
+//   })
+// }
+//
+// connectUser();
 
 
 //exports   --these are speaking with the backend
