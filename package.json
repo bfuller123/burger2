@@ -1,0 +1,24 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "You want the burger, so why not eat it? This site allows you to do just that. You tell it what type of burger you want to eat, and then through the power of NodeJS, Handlebars, MySQL, and Express you can eat it. Then you will have a list that will consistently update with what burgers you have eaten.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfuller123/burger.git"
+  },
+  "author": "Brett Fuller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bfuller123/burger/issues"
+  },
+  "homepage": "https://github.com/bfuller123/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}

@@ -1,0 +1,33 @@
+.title {
+  color: green;
+  grid-column: 4 / span 2;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 8em 20em 5em 10em 15em 8em;
+}
+
+.tables {
+  display: grid;
+  grid-template-columns: 5em 10em 3em 10em 5em;
+  grid-column: 3 / span 3;
+}
+
+.remaining {
+  grid-column: 2 / span 1;
+}
+
+.eaten {
+  grid-column: 4 / span 1;
+}
+
+#addBurger {
+  grid-column: 4 / span 2;
+  text-align: center;
+}
